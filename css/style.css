@@ -1,0 +1,332 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap');
+/**/
+
+@font-face {
+  font-family: Nautiluspompilius;
+  src: url("../fonts/nautiluspompilius.woff") format("woff"),
+    url("../fonts/nautiluspompilius.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Tangak;
+  src: url("../fonts/tangak.woff") format("woff"),
+    url("../fonts/tangak.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+[class*="__container"] {
+   max-width: 1020px;
+   margin: 0px auto;
+}
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+}
+.header {
+}
+.header__container {
+}
+.background {
+   background: url("../img/duotone.png") 0 / cover no-repeat fixed;
+   min-height: 800px;
+}
+.main {
+}
+.main__item {
+   
+
+}
+.main__contant {
+}
+/*-----------------------------------------------------------------------------------*/
+.premier {
+   background: url("../img/duotone.png") 0 / cover no-repeat;
+   min-height: 900px;
+}
+.premier-title {
+   font-size: 56px;
+   font-family: Roboto, sans-serif;
+   font-weight: 900;
+   color: rgba(255, 255, 255, 1);
+   padding: 300px 0 0 0;
+   max-width: 580px;
+   margin: 0 0 55px 0;
+}
+.premier__button {
+   
+   
+   
+}
+.button {
+   background-color: rgba(242, 114, 111, 1);
+   padding: 20px 30px;
+   color: rgba(255, 255, 255, 1);
+   font-family: Roboto, sans-serif;
+   font-weight: 700;
+   font-size: 12px;
+   border-radius: 8px;
+   text-transform: uppercase;
+}
+.button:hover {
+   text-decoration: underline;
+   box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+   background-color: rgb(247, 120, 118);;
+}
+/*-----------------------------------------------------------------------------------*/
+.who-we-are {
+   margin: -80px 0 250px 0;
+    
+}
+.who-we-are__container {
+   background: #5D62B5;
+  border-radius: 40px;
+  padding: 103px 0 0 87px;
+  max-height: 700px;
+  
+}
+.who-we-are__contant {
+   position: relative;
+   
+}
+.who-we-are__rounds {
+   background:  url("../img/rounds.png") right no-repeat;
+   width: 210px;
+   height: 320px;
+   position: absolute;
+   top: -214px;
+   left: 800px;
+   }
+.who-we-are__logo {
+   background: url("../img/icons/logo.svg") 0 no-repeat;
+   font-size: 12px;
+   padding: 0 0 0 35px;
+   font-family: Roboto, sans-serif;
+   font-weight: 700;
+   color: rgba(245, 245, 245, 1);
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   margin: 0 0 40px 0;
+}
+.who-we-are__contant {
+   position: relative;
+   
+}
+.who-we-are__title {
+   line-height: 1.1;
+   font-size: 36px;
+   font-family: Roboto, sans-serif;
+   font-weight: 900;
+   color: rgba(255, 255, 255, 1);
+   margin: 0 0 50px 0;
+   max-width: 580px;
+}
+.who-we-are__subtitle {
+   font-size: 16px;
+   font-family: Roboto, sans-serif;
+   font-weight: 400;
+   line-height: 1.5;
+   color: rgba(245, 245, 245, 1);
+   margin: 0 0 40px 0;
+   max-width: 845px;
+}
+.who-we-are__picture {
+   transform: translate(10px, -78px);
+   margin: -161px 0 0 0;
+}
+.main-image {
+   
+}
+.main-image__image {
+   width: 894px;
+   height: 468px;
+   position: relative;
+   
+}
+.main-image__image-item {
+   position: absolute;
+   top: 240px;
+   left: -24px;
+}
+.main-image__backg {
+   
+   position: relative;
+   
+}
+.main-image__backg::before {
+   content: "";
+   background: url("../img/Blob.png") 0 no-repeat;
+   width: 100%;
+   height: 389px;
+   position: absolute;
+   top: 204px;
+   left: -100px;
+
+}
+/*-----------------------------------------------------------------------------------*/
+.our-promise {
+margin: 0 0 180px 0;
+}
+.our-promice__container {
+}
+.our-promice__contant {
+}
+.our-promice__item {
+}
+.item {
+}
+.item__logo {
+   background: url("../img/promise/overline.svg") 0 / 18px no-repeat;
+   padding: 0 0 0 18px;
+   font-family: Roboto, sans-serif;
+   font-weight: 700;
+   font-size: 12px;
+   color: rgba(93, 98, 181, 1);
+   text-transform: uppercase;
+   margin: 0 0 37px 0;
+   letter-spacing: 2.5px;
+}
+.item__logo-text {
+   
+}
+.item__title {
+   font-size: 36px;
+   font-family: Roboro, sans-serif;
+   font-weight: 900;
+   color: rgba(0, 0, 0, 1);
+   margin: 0 0 71px 0;
+}
+.our-promice__column {
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 15px;
+}
+.our-promice__position {
+   display: flex;
+   column-gap: 26px;
+   
+}
+.position {
+   max-width: 320px;
+   min-height: 150px;
+   
+}
+.position__image {
+   max-width: 57px;
+   min-height: 100%;
+}
+.position__text {
+}
+.position__title {
+   font-size: 19px;
+   font-family: Roboro, sans-serif;
+   font-weight: 900;
+   color: rgba(242, 114, 111, 1);
+   margin: 0 0 33px 0;
+}
+.position__subtitle {
+   font-size: 16px;
+   line-height: 1.5;
+   font-family: Roboro, sans-serif;
+   font-weight: 400;
+   letter-spacing: 0.15px;
+   color: rgba(75, 75, 75, 1);
+}
+/*-----------------------------------------------------------------------------------*/
+.our-impact {
+   background-color: #29C3BE;
+   background-size: cover;
+   margin: 0 0 100px 0;
+   position: relative;
+}
+.our-impact::before {
+   content: "";
+   
+} 
+.our-impact__container {
+   position: relative;
+}
+.our-impact__container::before {
+   content: "";
+   background: url("../img/impact/desigh.png") 0 no-repeat;
+   width: 100%;
+   height: 389px;
+   position: absolute;
+   top: -56px;
+   left: 598px;
+}
+.our-impact__contant {
+   padding: 113px 0 0 0;
+}
+.our-impact__item {
+}
+.item {
+}
+.item__logo {
+}
+.logo__item_color {
+   color: rgba(255, 255, 255, 1);
+   background: url("../img/impact/icons/Overline.svg")0 no-repeat;
+   padding: 0 0 0 25px;
+   
+}
+.item__title {
+}
+.title__item_color {
+   color: rgba(255, 255, 255, 1);
+   max-width: 510px;
+   line-height: 1.2;
+}
+.our-impact__image {
+   min-width: 100%;
+   text-align: right;
+   transform: translate(135px, -412px);
+   position: relative;
+}
+.our-impact__image img{
+   border-radius: 40px;
+
+}
+.our-impact__image::before {
+   content: "";
+}
+.our-impact__column {
+   display: flex;
+   column-gap: 82px;
+   transform: translate(0px, -202px);
+   flex-wrap: wrap;
+}
+.our-impact__statistics {
+   display: flex;
+   column-gap: 10px;
+}
+.statistics {
+}
+.statistics__image {
+}
+.statistics__text {
+}
+.statistics__title {
+   font-size: 36px;
+   font-family: Roboro, sans-serif;
+   font-weight: 900;
+   color: rgba(255, 255, 255, 1);
+}
+.statistics__title:not(:last-child) {
+   margin: 0 0 10px 0;
+}
+.statistics__subtitle {
+   font-size: 16px;
+   color: rgba(93, 98, 181, 1);
+   font-family: Roboro, sans-serif;
+   font-weight: 700;
+}
+
+
+
+
+
+
